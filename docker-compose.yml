@@ -9,7 +9,6 @@ services:
       DATABASE_TYPE: postgresql
       APP_SECRET: ${APP_SECRET}
       FAVICON_URL: ${FAVICON_URL}
-      HOSTNAME: ${HOSTNAME}
       TRACKER_SCRIPT_NAME: ${TRACKER_SCRIPT_NAME}
     depends_on:
       db:
